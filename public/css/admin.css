@@ -1,0 +1,110 @@
+body {
+    color:#574c3f;
+    font-family:Corbel;
+    font-size:16px;
+    background-color:lavender;
+}
+
+#wrapper{
+    width:1100px;
+    height: auto;
+    margin:auto;
+    padding-bottom:20px;
+    background-color:white;
+}
+
+#header{
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+#navigation{
+    height:45px;
+    background:linear-gradient(to top,#c2bcb5,#fff);
+}
+
+#nav{
+    display:block;
+    list-style:none;
+    text-align:center;
+}
+
+#nav ul{
+    display:none;
+    list-style:none;
+}
+
+#nav li{
+    float:left;
+    display:block;
+    margin-top:15px;
+    text-transform:uppercase;
+    padding:0px 20px 0px 20px;
+    border-left:1px solid #fff;
+}
+
+#nav a:link , #nav a:visited, #nav a:active
+{
+    display:block;
+    color:#574c3f;
+    text-decoration:none;
+}
+
+#nav a:hover{
+    background-color:white;
+}
+
+#content{
+    padding:2-px;
+    min-height:400px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 25%;
+  font-family: sans-serif;
+  font-size: 16px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+   padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="text"]:focus,
+ input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="submit"]{
+    padding:10px;
+    margin:10px;
+    color:#fff;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    clear:both; 
+    background:linear-gradient(to bottom, darkgreen, green);
+}
+
+td
+{
+padding:5px;
+border:1px solid #ccc;
+
+
+}
+
+span{
+    text-align: center;
+    color: #123456;
+}
